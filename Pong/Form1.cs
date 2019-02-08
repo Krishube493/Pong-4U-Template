@@ -245,12 +245,6 @@ namespace Pong
                     paddleHitSound.Play();
                     ballMoveRight = false;
             }
-
-            /*  ENRICHMENT
-             *  Instead of using two if statments as noted above see if you can create one
-             *  if statement with multiple conditions to play a sound and change direction
-             */
-
             #endregion
 
             #region ball collision with side walls (point scored)
